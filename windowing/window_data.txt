@@ -1,0 +1,45 @@
+#Tumbling Example Data
+
+{"CreatedTime":"2023-10-05 10:05:00", "Type":"BUY", "Amount":500, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:12:00", "Type":"BUY", "Amount":300, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:20:00", "Type":"BUY", "Amount":800, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:40:00", "Type":"BUY", "Amount":900, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:25:00", "Type":"SELL", "Amount":400, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:48:00", "Type":"SELL", "Amount":600, "BrokerCode":"TCS"}
+
+
+
+
+#Sliding Window Example Data
+
+{"CreatedTime":"2023-10-05 09:54:00","Reading":36.2}
+{"CreatedTime":"2023-10-05 09:59:00","Reading":36.5}
+{"CreatedTime":"2023-10-05 10:04:00","Reading":36.8}
+{"CreatedTime":"2023-10-05 10:09:00","Reading":36.2}
+{"CreatedTime":"2023-10-05 10:14:00","Reading":36.5}
+{"CreatedTime":"2023-10-05 10:19:00","Reading":36.3}
+{"CreatedTime":"2023-10-05 10:24:00","Reading":37.7}
+{"CreatedTime":"2023-10-05 10:29:00","Reading":37.2}
+
+
+
+
+
+
+#Watermarking Example Data
+
+{"CreatedTime":"2023-10-05 10:05:00", "Type":"BUY", "Amount":500, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:40:00", "Type":"BUY", "Amount":900, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:20:00", "Type":"BUY", "Amount":800, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:48:00", "Type":"SELL", "Amount":600, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:14:00", "Type":"SELL", "Amount":600, "BrokerCode":"TCS"}
+{"CreatedTime":"2023-10-05 10:16:00", "Type":"SELL", "Amount":600, "BrokerCode":"TCS"}
+
+
+
+
+
+
+SET1:{"CreatedTime":"2023-10-05 10:34:00","Reading":36.8}
+SET1:{"CreatedTime":"2023-10-05 10:39:00","Reading":36.9}
+SET1:{"CreatedTime":"2023-10-05 10:44:00","Reading":36.7}

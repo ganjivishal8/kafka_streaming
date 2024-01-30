@@ -1,0 +1,17 @@
+##zookeeper server
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+##kafka server
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+##create topic
+.\bin\windows\kafka-topics.bat --create --topic kafkademo --bootstrap-server localhost:9092
+
+##publish topic
+.\bin\windows\kafka-console-producer.bat --topic kafkademo --bootstrap-server localhost:9092
+
+## delete topic
+.\bin\windows\kafka-topics.bat --delete --topic streamwindow --bootstrap-server localhost:9092
+
+##list topic
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
